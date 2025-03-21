@@ -1,0 +1,39 @@
+/* Custom Styles */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+/* Responsive Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hover Effects */
+a:hover {
+    text-decoration: none;
+}
+
+
+/* garllery page */
+.hover-zoom {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Apply the zoom effect on hover */
+.hover-zoom:hover {
+    transform: scale(1.1);
+}

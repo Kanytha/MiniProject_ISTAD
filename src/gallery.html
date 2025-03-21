@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="output.css"> -->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <title>Khmer New Year - Gallery</title>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <!-- Header Section -->
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Khmer New Year Logo" class="h-16 mx-10 w-32">
+                </a>
+            </div>
+            <ul class="flex space-x-6 text-amber-400 mx-10">
+                <li><a href="index.html" class="hover:text-blue-800">Home</a></li>
+                <li><a href="about.html" class="hover:text-blue-800">About</a></li>
+                <li><a href="gallery.html" class="hover:text-blue-800 font-bold">Gallery</a></li>
+                <li><a href="contact.html" class="hover:text-blue-800">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero bg-cover bg-center h-screen relative"
+        style="background-image: url('gallery/gallery.png');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="container mx-auto px-4 py-24 relative z-10 text-center text-white">
+            <h1 class="text-5xl font-bold mb-4">Khmer New Year Gallery</h1>
+            <p class="text-xl mb-8">Explore the vibrant moments and traditions of Khmer New Year celebrations.</p>
+            <a href="#gallery"
+                class="bg-amber-400 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition duration-300">
+                View Gallery
+            </a>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="container mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold text-center text-amber-400 mb-8">Photo Gallery</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <!-- Row 1 -->
+            <!-- Image 1 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="gallery/celebrate.png" alt="Khmer New Year Celebration" class="w-full h-64 object-cover hover-zoom">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold mb-2">Traditional Dance</h3>
+                    <p class="text-gray-700">A glimpse of the traditional Apsara dance performed during the festival.</p>
+                </div>
+            </div>
+            <!-- Image 2 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="gallery/banhTerk.png" alt="Water Festival" class="w-full h-64 object-cover hover-zoom">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold mb-2">Water Festival</h3>
+                    <p class="text-gray-700">The vibrant water splashing tradition that brings joy to everyone.</p>
+                </div>
+            </div>
+            <!-- Image 3 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="gallery/kunBokator.jpg" alt="Bokator Martial Art" class="w-full h-64 object-cover hover-zoom">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold mb-2">Bokator</h3>
+                    <p class="text-gray-700">The ancient martial art of Cambodia showcased during the festivities.</p>
+                </div>
+            </div>
+
+            <!-- Row 2 -->
+            <!-- Image 4 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="gallery/teanhPrat.png" alt="Traditional Games" class="w-full h-64 object-cover hover-zoom">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold mb-2">Traditional Games</h3>
+                    <p class="text-gray-700">Communities come together to play fun games like Tug of War.</p>
+                </div>
+            </div>
+            <!-- Image 5 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="gallery/temple_vistit.png" alt="Temple Visit" class="w-full h-64 object-cover hover-zoom">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold mb-2">Temple Visit</h3>
+                    <p class="text-gray-700">Devotees visit temples to offer prayers and seek blessings.</p>
+                </div>
+            </div>
+            <!-- Image 6 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="gallery/familyRenunion.png" alt="Family Reunion" class="w-full h-64 object-cover hover-zoom">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold mb-2">Family Reunion</h3>
+                    <p class="text-gray-700">Families gather to celebrate the new year together.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="bg-amber-400 text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Experience Khmer New Year!</h2>
+            <p class="text-lg mb-8">Join us to celebrate the vibrant traditions and culture of Cambodia.</p>
+            <a href="contact.html"
+                class="bg-white hover:bg-gray-200 text-amber-400 font-bold py-3 px-6 rounded-full transition duration-300">
+                Contact Us
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="relative flex justify-center items-center min-h-[200px] bg-amber-400">
+        <!-- Background Image -->
+        <div class="absolute inset-0 opacity-100"
+            style="background-image: url('img/Khmer%20New%20Year%202021%20Element%20free%20vector%20By%20Methona%20Oun.jpg'); 
+                   background-size: contain; 
+                   background-repeat: repeat-x; 
+                   background-position: top center;">
+        </div>
+    </footer>
+    
+</body>
+
+</html>

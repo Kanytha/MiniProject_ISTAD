@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="output.css"> -->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <title>Khmer New Year - Contact</title>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <!-- Header Section -->
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Khmer New Year Logo" class="h-16 mx-10 w-32">
+                </a>
+            </div>
+            <ul class="flex space-x-6 text-amber-400 mx-10">
+                <li><a href="index.html" class="hover:text-blue-800">Home</a></li>
+                <li><a href="about.html" class="hover:text-blue-800">About</a></li>
+                <li><a href="gallery.html" class="hover:text-blue-800">Gallery</a></li>
+                <li><a href="contact.html" class="hover:text-blue-800 font-bold">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero bg-cover bg-center h-screen relative"
+        style="background-image: url('contact/contact.png');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="container mx-auto px-4 py-24 relative z-10 text-center text-white">
+            <h1 class="text-5xl font-bold mb-4">Contact Us</h1>
+            <p class="text-xl mb-8">We'd love to hear from you! Reach out to us for more information or inquiries.</p>
+            <a href="#contact-form"
+                class="bg-amber-400 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition duration-300">
+                Get in Touch
+            </a>
+        </div>
+    </section>
+
+<!-- Contact Form Section -->
+<section id="contact-form" class="container mx-auto px-4 py-16">
+    <h2 class="text-4xl font-bold text-center text-amber-400 mb-12">Send Us a Message</h2>
+    <div class="relative max-w-3xl mx-auto bg-cover bg-center rounded-lg overflow-hidden"
+        style="background-image: url('contact/bg_contact.png');">
+        <!-- Overlay for Blurred Background -->
+        <!-- <div class="absolute inset-0 bg-black bg-opacity-5 backdrop-blur-sm"></div> -->
+        <!-- Form Content -->
+        <form action="#" method="POST"
+            class="relative z-10 p-12 bg-red-50 bg-opacity-70 rounded-lg shadow-2xl">
+            <!-- Name Field -->
+            <div class="mb-6">
+                <label for="name" class="block text-gray-700 font-semibold mb-2">Full Name</label>
+                <input type="text" id="name" name="name"
+                    class="w-full px-6 py-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Enter your full name" required>
+            </div>
+            <!-- Email Field -->
+            <div class="mb-6">
+                <label for="email" class="block text-gray-700 font-semibold mb-2">Email Address</label>
+                <input type="email" id="email" name="email"
+                    class="w-full px-6 py-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Enter your email address" required>
+            </div>
+            <!-- Message Field -->
+            <div class="mb-6">
+                <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
+                <textarea id="message" name="message" rows="8"
+                    class="w-full px-6 py-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Write your message here..." required></textarea>
+            </div>
+            <!-- Submit Button -->
+            <button type="submit"
+                class="w-full bg-amber-400 hover:bg-blue-800 text-white font-bold py-4 px-8 rounded-full transition duration-300">
+                Submit
+            </button>
+        </form>
+    </div>
+</section>
+
+    <!-- Call to Action Section -->
+    <section class="bg-amber-400 text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Let's Celebrate Together!</h2>
+            <p class="text-lg mb-8">Join us in celebrating the vibrant traditions and culture of Cambodia.</p>
+            <a href="index.html"
+                class="bg-white hover:bg-gray-200 text-amber-400 font-bold py-3 px-6 rounded-full transition duration-300">
+                Back to Home
+            </a>
+        </div>
+    </section>
+
+<!-- Footer Section -->
+<footer class="relative flex justify-center items-center min-h-[200px] bg-amber-400">
+    <!-- Background Image -->
+    <div class="absolute inset-0 opacity-100"
+        style="background-image: url('img/Khmer%20New%20Year%202021%20Element%20free%20vector%20By%20Methona%20Oun.jpg'); 
+               background-size: contain; 
+               background-repeat: repeat-x; 
+               background-position: top center;">
+    </div>
+</footer>
+
+</body>
+
+</html>

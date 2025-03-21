@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="output.css"> -->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <title>Khmer New Year - Home</title>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <!-- Header Section -->
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Khmer New Year Logo" class="h-16 mx-10 w-32">
+                </a>
+            </div>
+            <ul class="flex space-x-6 text-amber-400 mx-10">
+                <li><a href="index.html" class="hover:text-blue-800 font-bold">Home</a></li>
+                <li><a href="about.html" class="hover:text-blue-800">About</a></li>
+                <li><a href="gallery.html" class="hover:text-blue-800">Gallery</a></li>
+                <li><a href="contact.html" class="hover:text-blue-800">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero bg-cover bg-center h-screen relative"
+        style="background-image: url('img/celebrate.png');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="container mx-auto px-4 py-24 relative z-10 text-center text-white">
+            <h1 class="text-5xl font-bold mb-4">Celebrate Khmer New Year 2024</h1>
+            <p class="text-xl mb-8">Join us in celebrating the rich traditions and culture of Cambodia!</p>
+            <a href="#activities"
+                class="bg-amber-400 hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-full transition duration-300">
+                Explore Activities
+            </a>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="container mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold text-center text-amber-400 mb-8">Traditional Activities</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Activity 1 -->
+            <a href="gallery.html#bokator" class="block bg-white shadow-lg p-6 rounded-lg text-center activity-card no-underline hover:text-amber-400">
+                <img src="img/bokator.png" alt="Bokator" class="w-full h-48 object-cover rounded-lg mb-4 hover-zoom">
+                <h3 class="text-xl font-semibold mb-2">Bokator</h3>
+                <p class="text-gray-700">Explore the ancient martial art of Bokator, a symbol of Cambodian strength and tradition.</p>
+            </a>
+
+            <!-- Activity 2 -->
+            <a href="gallery.html#water-festival" class="block bg-white shadow-lg p-6 rounded-lg text-center activity-card no-underline     hover:text-amber-400">
+                <img src="img/water_festival.png" alt="Water Festival" class="w-full h-48 object-cover rounded-lg mb-4 hover-zoom">
+                <h3 class="text-xl font-semibold mb-2">Water Festival</h3>
+                <p class="text-gray-700">Enjoy the vibrant water festival, a highlight of Khmer New Year celebrations.</p>
+            </a>
+
+            <!-- Activity 3 -->
+            <a href="gallery.html#traditional-games" class="block bg-white shadow-lg p-6 rounded-lg text-center activity-card no-underline  hover:text-amber-400">
+                <img src="img/traditional_game.jpg" alt="Traditional Games" class="w-full h-48 object-cover rounded-lg mb-4 hover-zoom">
+                <h3 class="text-xl font-semibold mb-2">Traditional Games</h3>
+                <p class="text-gray-700">Participate in fun traditional games that bring communities together.</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- History section -->
+    <section id="history" class="container mx-auto px-6 py-12 bg-gray-50">
+        <h2 class="text-3xl font-bold text-center text-amber-400 mb-8">History of Khmer New Year</h2>
+        <div class="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-10">
+            <!-- Image on the Left -->
+            <div class="md:w-2/5 flex justify-center">
+                <img src="img/history.png" alt="Khmer New Year History"
+                    class="w-full max-w-[400px] h-auto rounded-lg shadow-md">
+            </div>
+            <!-- Text on the Right -->
+            <div class="md:w-3/5 text-gray-700 leading-relaxed">
+                <p class="mb-4 text-justify">
+                    Khmer New Year, also known as <strong>"Choul Chnam Thmey,"</strong> is celebrated annually in April.
+                    It marks the end of the harvest season and the beginning of the new year according to the Khmer calendar.
+                    The celebration lasts for three days, each with its own rituals and significance.
+                </p>
+                <p class="text-justify">
+                    During this time, Cambodians visit temples, offer prayers, and participate in traditional games.
+                    It's a time for family reunions, feasts, and cultural festivities.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="container mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold text-center text-amber-400 mb-8">What People Say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Testimonial 1 -->
+            <div class="bg-white shadow-lg p-6 rounded-lg text-center">
+                <p class="text-gray-700 italic mb-4">"The Khmer New Year celebration was an unforgettable experience! I loved the traditional games and the vibrant atmosphere."</p>
+                <p class="font-bold text-amber-400">- John Doe</p>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="bg-white shadow-lg p-6 rounded-lg text-center">
+                <p class="text-gray-700 italic mb-4">"I learned so much about Cambodian culture during the New Year festivities. Highly recommend visiting!"</p>
+                <p class="font-bold text-amber-400">- Jane Smith</p>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="bg-white shadow-lg p-6 rounded-lg text-center">
+                <p class="text-gray-700 italic mb-4">"The water festival was my favorite part. So much fun and energy!"</p>
+                <p class="font-bold text-amber-400">- Michael Brown</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="bg-amber-400 text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Join Us This Khmer New Year!</h2>
+            <p class="text-lg mb-8">Experience the joy, traditions, and culture of Cambodia like never before.</p>
+            <a href="contact.html"
+                class="bg-white hover:bg-gray-200 text-amber-400 font-bold py-3 px-6 rounded-full transition duration-300">
+                Contact Us
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="relative flex justify-center items-center min-h-[200px] bg-amber-400">
+        <!-- Background Image -->
+        <div class="absolute inset-0 opacity-100"
+            style="background-image: url('img/Khmer%20New%20Year%202021%20Element%20free%20vector%20By%20Methona%20Oun.jpg'); 
+                   background-size: contain; 
+                   background-repeat: repeat-x; 
+                   background-position: top center;">
+        </div>
+    </footer>
+    
+</body>
+
+</html>
